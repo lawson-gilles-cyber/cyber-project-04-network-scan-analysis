@@ -1,0 +1,17 @@
+NETWORK SCAN REPORT
+
+Target: Internal Server
+Risk Level: MEDIUM
+
+Findings:
+- SSH open (risk of brute force)
+- Web services active
+- MySQL exposed (high risk)
+
+Conclusion:
+System has multiple exposed services increasing attack surface.
+
+Recommendations:
+- Restrict access
+- Apply firewall rules
+- Monitor traffic
